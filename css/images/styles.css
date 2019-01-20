@@ -1,0 +1,292 @@
+
+
+*{
+
+}
+
+
+.container-fluid{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18%;
+  padding-bottom:28%;
+  padding-right: 1%;
+  padding-left: 1%;
+  color: #fff;
+
+  /* padding: 1em; */
+}
+
+.wrapper{
+box-shadow: 0 0 20px rgba(72, 94, 196, 0.7);
+
+}
+
+.wrapper > *{
+  padding: 1em;
+
+}
+
+.company-info{
+   /* background: #ef9a9a; */
+}
+
+.company-info h4{
+
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.company-info h4{
+
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.contact form label{
+
+  display: block;
+}
+.contact form p{
+  margin: 0;
+  color: #fff;
+
+}
+
+.contact form button{
+
+  width: 40%;
+  height: 15%;
+  border: 0;
+  outline: 0;
+
+}
+
+
+
+
+
+#title {
+  background-image: url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: cover;
+  /* background-repeat: no-repeat; */
+  height: 110vh;
+
+}
+#navbar-main{
+  min-height: 66px;
+  background: #000;
+}
+.navbar-brand-logo{
+  width: 25.5rem;
+  height: 3.5rem;
+}
+
+
+p{
+  color: #8f8f8f;
+  line-height: 20px;
+
+
+}
+.col-lg-6{
+
+}
+
+.p-size{
+  color: #000;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 20px;
+  margin: auto;
+
+
+}
+.button-cs{
+  background-color: red;
+}
+.container-fluid
+{
+
+
+
+
+}
+.color-h2{
+font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.color-h3{
+font-family: 'Merriweather', serif;
+line-height: 1;
+
+}
+.main-color
+{
+  font-family: 'Merriweather', serif;
+}
+.color-h1{
+
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+}
+
+/* navigation bar  */
+.bg-dark {
+    background-color: rgb(0, 0, 0)!important;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  /* padding is used for spacing */
+color: #fff;
+padding: 0 18px;
+
+}
+.nav-link{
+  /* Size of the item for nav bar */
+  display: block;
+ color: #fff;
+  font-size: 1rem;
+  font-family: "Ubuntu";
+}
+
+.download-button{
+  /* Specification of the button
+   */
+   margin: 5% 3% 5% 0%;
+}
+.image-rotate{
+  width: 200%;
+  background-size: cover;
+  transform: rotate(0);
+}
+
+#features{
+  padding: 8% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+
+  color: #dbff3d;
+  margin: 1rem;
+
+}
+.icon:hover{
+  color: yellow;
+
+}
+.lovely-icone{
+  color: yellow;
+}
+.lovely-icone:hover{
+  color: #dbff3d;
+}
+.image-testemonial{
+  width: : 2%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+.carousel-item{
+    padding: 8% 15%;
+}
+
+/* Pricings */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+
+}
+
+#pricing_2{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-column_2 {
+  padding: 3% 2%;
+
+}
+
+
+/* Testimonials */
+#testimonials
+{
+  /* padding: 7% top and botton 15% left and right  */
+  text-align: center;
+  background-color:#ff;
+  color: #000;
+}
+#press{
+
+    background-color:#000000;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+#cta{
+  background-color:#fff;
+    color: #000;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.press-log{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+.social-icon{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Chela+One";
+  font-size: 40px;
+}
+#footer{
+  background-color:#000000;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  font-family: "Chela+One";
+  font-size: 20px;
+
+}
+.lfd{
+font-size: 20px;
+color: #fff;
+font-family:inherit;
+
+}
+
+@@media (max-width 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .image-rotate{
+    position: static;
+    transform: : rotate(0deg);
+  }
+
+
+}
